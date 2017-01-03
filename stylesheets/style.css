@@ -76,7 +76,7 @@ html, body, main {
 }
 
 /* line 10, ../sass/style.scss */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, small {
   color: #696969;
   font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
   font-size: 117%;
@@ -116,15 +116,16 @@ p {
   line-height: 1.9;
   font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
   letter-spacing: 4px;
+  color: #696969;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 header {
   width: 960px;
   height: 270px;
   margin: 0 auto;
 }
-/* line 52, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 header h1 {
   position: absolute;
   top: 120px;
@@ -134,18 +135,18 @@ header h1 {
   font-weight: 700;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 #main {
   display: block;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 #main-visual {
   background: #f9f9f9;
   height: 420px;
   margin-bottom: 80px;
 }
-/* line 70, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 #main-visual #mainVisual-box {
   width: 960px;
   margin: 0 auto;
@@ -154,7 +155,7 @@ header h1 {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 #main-visual #mainVisual-box .box-me {
   height: 420px;
   min-width: 24px;
@@ -164,7 +165,7 @@ header h1 {
   -webkit-flex: 1 0;
   flex: 1 0;
 }
-/* line 81, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 #main-visual #mainVisual-box .box-me .box-img {
   position: relative;
   display: block;
@@ -180,7 +181,7 @@ header h1 {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 97, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 #main-visual #mainVisual-box .box-content {
   height: 300px;
   min-width: 24px;
@@ -195,7 +196,7 @@ header h1 {
   background-position: top center;
   background-size: cover;
 }
-/* line 113, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 #main-visual #mainVisual-box .box-content .box-text {
   width: 450px;
   height: 250px;
@@ -206,9 +207,8 @@ header h1 {
   left: 0;
   margin: auto;
 }
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 #main-visual #mainVisual-box .box-content .box-text p {
-  color: #696969;
   font-size: 24px;
   width: 100%;
   height: 100%;
@@ -287,4 +287,20 @@ header h1 {
 /* line 181, ../sass/style.scss */
 #skills #skill-box section:first-child {
   margin-right: 40px;
+}
+
+/* line 187, ../sass/style.scss */
+footer {
+  width: 960px;
+  margin: 0 auto 30px auto;
+  clear: both;
+}
+/* line 191, ../sass/style.scss */
+footer p {
+  text-align: center;
+}
+/* line 193, ../sass/style.scss */
+footer p small {
+  font-size: 60%;
+  color: #ccc;
 }
